@@ -5,9 +5,9 @@ import Artwork from '../atoms/Artwork.svelte';
 <div class="grid-container">
     <div class="grid">
         <Artwork art="painted_red" tall />
-        <Artwork art="drowning" />
+        <Artwork art="drowning" tall />
         <Artwork art="BL1NG!" tall />
-        <Artwork art="811" />
+        <Artwork art="811" tall/>
         <Artwork art="lonely" tall subtitle="Acrylic Paint" />
         <Artwork art="diverge" tall />
         <Artwork
@@ -18,8 +18,10 @@ import Artwork from '../atoms/Artwork.svelte';
             subtitle="Commissioned by Kevin T. · Do not use"
             />
             <Artwork art="ribbons" tall />
-            <Artwork art="asumi" />
-            <Artwork art="doodle" />
+            <Artwork art="asumi" tall/>
+            <Artwork art="doodle" tall/>
+            <Artwork art="BL1NG!" tall/>
+            <Artwork art="diverge" tall/>
             </div>
             </div>
 

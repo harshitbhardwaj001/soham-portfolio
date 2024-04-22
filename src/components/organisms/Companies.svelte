@@ -73,7 +73,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    animation: marquee 30s linear infinite;
+    animation: marquee 10s linear infinite;
     transition-delay: 1s;
     margin-bottom: 6rem;
 }
@@ -89,11 +89,11 @@ img {
 
 @keyframes marquee {
     0% {
-        left: 120%;
+        left: 76%;
     }
 
     100% {
-        left: -100%;
+        left: -76%;
     }
 }
 
@@ -107,6 +107,16 @@ img {
         padding-left: 1.5rem;
         margin-bottom: -1.5rem;
     }
+
+    @keyframes marquee {
+    0% {
+        left: 176%;
+    }
+
+    100% {
+        left: -176%;
+    }
+}
 
     .brand {
         gap: 1rem;
